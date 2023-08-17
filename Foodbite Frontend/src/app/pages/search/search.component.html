@@ -1,0 +1,5 @@
+<div>
+    <input type="text" #s placeholder="Search for food!!" (keyup.enter)="search(s.value)"
+    [value]="searchFood">
+    <button (click)="search(s.value)"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>

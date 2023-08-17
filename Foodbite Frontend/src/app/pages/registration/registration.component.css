@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.details{
+    width: 28rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 0 solid gray;
+    transition: border-bottom 0.15s ease-out;
+    background-color: white;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+input::placeholder{
+    color: #dfdfdf;
+    font-size: 0.95rem;
+}
+
+input:focus{
+    border-width: 2.9px;
+    border-color: green;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="details">
+        <app-title title="User Registration"></app-title>
+        <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+            <app-input-container label="Name">
+                <input type="text" placeholder="Name" formControlName="name">
+            </app-input-container>
+            <app-input-validation [control]='f.name' [showErrorsWhen]="isSubmitted"></app-input-validation>
+
+            <app-input-container label="Email">
+                <input type="email" placeholder="Email" formControlName="email">
+            </app-input-container>
+            <app-input-validation [control]='f.email' [showErrorsWhen]="isSubmitted"></app-input-validation>
+
+            <app-input-container label="Password">
+                <input type="password" placeholder="Password" formControlName="password">
+            </app-input-container>
+            <app-input-validation [control]='f.password' [showErrorsWhen]="isSubmitted"></app-input-validation>
+
+            <app-input-container label="Confirm Password">
+                <input type="password" placeholder="Confirm Password" formControlName="confirmPassword">
+            </app-input-container>
+            <app-input-validation [control]='f.confirmPassword' [showErrorsWhen]="isSubmitted"></app-input-validation>
+
+            <app-input-container label="Address">
+                <input type="text" placeholder="Address" formControlName="address">
+            </app-input-container>
+            <app-input-validation [control]='f.address' [showErrorsWhen]="isSubmitted"></app-input-validation>
+
+            <app-default-button text="Register">
+            </app-default-button>
+
+            <div class="login">
+                Already a user? &nbsp;
+                <a routerLink="/login" [queryParams]="{returnUrl:returnUrl}" >Login Here</a>
+            </div>
+        </form>
+    </div>
+</div>

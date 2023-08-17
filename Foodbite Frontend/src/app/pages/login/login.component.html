@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="details">
+        <app-title title="Login"></app-title>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="input-container">
+                <app-input-container label="Email">
+                    <input type="email" placeholder="Email" formControlName="email">
+                </app-input-container>  
+                <app-input-validation [control] ='g.email' [showErrorsWhen]="isSubmitted">
+                </app-input-validation>             
+            </div>
+            <div class="input-container">
+                <app-input-container label="Password">
+                    <input type="password" placeholder="Password" formControlName="password">
+                </app-input-container>  
+                <app-input-validation [control] ='g.password' [showErrorsWhen]="isSubmitted">
+                </app-input-validation>             
+            </div>
+            <app-default-button text="Login">
+            </app-default-button>
+            <div class="register">
+                New user? &nbsp;
+                <a routerLink="/register" [queryParams]="{returnUrl:returnUrl}" >Register Here</a>
+            </div>
+        </form>
+    </div>
+    
+</div>
