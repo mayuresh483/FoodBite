@@ -46,4 +46,5 @@ input:focus{
 a{
     color: #fc8019;
     font-weight: bolder;
+    text-decoration: none;
 }

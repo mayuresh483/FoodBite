@@ -34,7 +34,7 @@ input::placeholder{
 
 input:focus{
     border-width: 2.9px;
-    border-color: green;
+    border-color: #fc8019;
 }
 
 .login{
@@ -46,4 +46,5 @@ input:focus{
 a{
     color: #fc8019;
     font-weight: bolder;
+    text-decoration: none;
 }

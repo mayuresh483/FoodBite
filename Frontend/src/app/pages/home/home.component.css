@@ -17,6 +17,7 @@ li a{
     color: black;
     font-weight: bolder;
     flex-direction: column;
+    text-decoration: none;
 }
 
 li a:hover{
