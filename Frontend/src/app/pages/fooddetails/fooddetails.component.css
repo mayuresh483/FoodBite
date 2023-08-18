@@ -36,7 +36,7 @@ img{
 }
 
 .favorite{
-    color: #e72929;
+    color: #fc8019;;
     font-size: 2.5rem;
 }
 
@@ -66,7 +66,7 @@ img{
 
 .tags a{
     margin-right: 1rem;
-    background-color: #e73929;
+    background-color: #fc8019;;
     padding: 0.5rem;
     border-radius: 1rem;
     opacity: 0.8;
@@ -97,7 +97,7 @@ img{
 
 button{
     color: white;
-    background-color: #e72929;
+    background-color: #fc8019;;
     border: none;
     font-size: 1.2rem;
     border-radius: 10rem;

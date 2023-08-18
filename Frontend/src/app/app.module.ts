@@ -28,6 +28,7 @@ import { MapComponent } from './pages/map/map.component';
 import { AuthInterceptor } from './interceptor/auth.interceptor';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { PaypalButtonComponent } from './pages/paypal-button/paypal-button.component';
+import { CarouselComponent } from './pages/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { PaypalButtonComponent } from './pages/paypal-button/paypal-button.compo
     MapComponent,
     PaymentComponent,
     PaypalButtonComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

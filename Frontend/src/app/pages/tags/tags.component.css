@@ -6,10 +6,13 @@ div{
 
 div a{
     margin: 1rem;
-    background-color: #e73929;
-    padding: 0.5rem;
+    background-color: #fc8019;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     border-radius: 1rem;
     opacity: 0.8;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }

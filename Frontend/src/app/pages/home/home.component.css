@@ -14,7 +14,8 @@ li a{
     border-radius: 1rem;
     margin: 0.5rem;
     overflow: hidden;
-    color: red;
+    color: black;
+    font-weight: bolder;
     flex-direction: column;
 }
 
@@ -33,6 +34,7 @@ li a img{
     padding: 0.5rem 1rem;
     position: relative;
     height: 7rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .favorite{
@@ -40,11 +42,11 @@ li a img{
     top: 0.5rem;
     right: 1rem;
     font-size: 1.2rem;
-    color: red;
+    color: #fc8019;
     display: inline-block;
     width: 1.2rem;
     aspect-ratio: 1;
-    border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
+    border-image: radial-gradient(#fc8019, 69%, #0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
 
@@ -84,6 +86,7 @@ li a img{
     padding: 0 0.5rem;
     margin-top: 0.2rem;
     font-size: 0.8rem;
+    font-family:"Quicksand","sans-serif";
     font-weight: bold;
 }
 
@@ -99,7 +102,8 @@ li a img{
     left: 0.9rem;
     background: white;
     padding: 0.3rem 100% 0 0;
-    color: #414141;
+    color: #fc8019;
+    font-weight: bolder;
     margin-top: 0.7rem;
     font-size: 1.1rem;
 }

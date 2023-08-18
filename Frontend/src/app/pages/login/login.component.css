@@ -34,11 +34,16 @@ input::placeholder{
 
 input:focus{
     border-width: 2.9px;
-    border-color: green;
+    border-color: #fc8019;
 }
 
 .register{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a{
+    color: #fc8019;
+    font-weight: bolder;
 }

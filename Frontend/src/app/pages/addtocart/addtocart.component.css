@@ -58,7 +58,7 @@ li .remove-button{
     border-radius: 1rem;
     border: none;
     padding: 0.5rem;
-    color: #e72929;
+    color: #fc8019;
     opacity: 0.7;
     outline: none;
   }
@@ -108,7 +108,7 @@ li .remove-button{
   .checkout a{
     padding: 1rem;
     color: white;
-    background:#e72929;
+    background:#fc8019;
     display: block;
     width: 99%;
     border-radius: 1rem;
@@ -121,3 +121,8 @@ li .remove-button{
     opacity: 1;
     cursor: pointer;
   } 
+
+  a{
+    color: black;
+    font-weight: bolder;
+  }

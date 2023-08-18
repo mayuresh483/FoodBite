@@ -19,12 +19,12 @@
 }
 
 img{
-    border-bottom:10px solid brown;
+    border-bottom:10px solid #aa4c00;
     width: 200px;
     height: 200px;
 }
 
 h1{
-    color: brown;
+    color: #fc8019;
     text-transform: lowercase;
 }

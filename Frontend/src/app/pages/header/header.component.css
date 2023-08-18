@@ -1,23 +1,18 @@
-header{
-    position: relative;
-    background-color: white;
-    border: 1px solid #e72929;
-    padding: 0px;
-}
-
 a{
-    color: #af1313;
+    color:white;
 }
 
-a:hover{
-    background: #e72929;
-    color: white;
-}
-
-.container{
+.container-header{
     display: flex;
+    background-color: #fc8019;
     margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.2rem;
     justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1000;
 }
 
 a.logo{
@@ -52,7 +47,7 @@ a span{
 .menu{
     position:absolute;
     z-index: 1;
-    background: whitesmoke;
+    background: white;
     display: none;
 }
 
@@ -63,4 +58,20 @@ a span{
 .menu a{
     width: 100%;
     min-width: 8rem;
+    color: #fc8019;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.menu a:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
 }

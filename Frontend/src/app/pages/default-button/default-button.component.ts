@@ -13,7 +13,7 @@ export class DefaultButtonComponent {
   text:string='Submit'
 
   @Input()
-  bgColor = '#e72929'
+  bgColor = '#fc8019'
 
   @Input()
   fontSize = 1.3;

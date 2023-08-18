@@ -42,3 +42,8 @@ input:focus{
     justify-content: center;
     align-items: center;
 }
+
+a{
+    color: #fc8019;
+    font-weight: bolder;
+}

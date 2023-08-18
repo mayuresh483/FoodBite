@@ -1,0 +1,16 @@
+.container-start{
+    height: 33rem;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    z-index: -1;
+    overflow: hidden;
+    background-color: black; 
+    background-repeat: no-repeat;
+}
+
+img{
+    object-fit:contain;
+    height: 33rem;
+    z-index: -1;
+}
