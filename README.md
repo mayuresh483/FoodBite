@@ -14,7 +14,7 @@ Designed and Implemented an Online Food Store Portal using Angular, MongoDB, and
   <li><i>mongoose</i> - Use for interacting with MongoDB databases, simplifying the process of managing and querying data using JavaScript objects and schemas.</li>
 </ul>
 
-<strong>Sample Screenshots</strong>
+<strong>Sample Screenshots:</strong>
 
 <img width="1470" alt="Screenshot 2023-08-18 at 8 46 22 PM" src="https://github.com/mayuresh483/FoodBite/assets/71397135/e45adbd6-b185-49e9-8307-91813cddb519">
 <img width="1494" alt="Screenshot 2023-08-18 at 8 46 48 PM" src="https://github.com/mayuresh483/FoodBite/assets/71397135/94e9ba0c-a912-4948-9655-5b683aa60193">
